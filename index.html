@@ -3,128 +3,38 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Komorebi Studio</title>
+    <title>琉生くんのぼうけん サポート</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="topbar">
-      <a class="brand" href="#home" aria-label="Komorebi Studio home">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>Komorebi Studio</span>
-      </a>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#work">制作例</a>
-        <a href="#plans">プラン</a>
-        <a href="#contact">相談</a>
-      </nav>
-    </header>
+    <main class="page">
+      <section class="support-card">
+        <p class="eyebrow">App Support</p>
+        <h1>琉生くんのぼうけん サポート</h1>
+        <p class="lead">
+          アプリ「琉生くんのぼうけん」に関するお問い合わせページです。
+          不具合、ご意見、ご質問がありましたら、以下の連絡先までお知らせください。
+        </p>
 
-    <main>
-      <section id="home" class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Small sites, carefully made</p>
-          <h1>小さなお店や個人活動のための、軽やかなWebサイト。</h1>
-          <p class="lead">
-            Komorebi Studioは、見やすさと更新しやすさを大切にした
-            1ページサイトを短い時間で形にする架空の制作スタジオです。
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#contact">相談する</a>
-            <a class="button secondary" href="#work">制作例を見る</a>
-          </div>
-        </div>
-
-        <figure class="hero-visual" aria-label="Sample website preview">
-          <div class="preview-window">
-            <div class="preview-bar">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="preview-scene">
-              <div class="sun"></div>
-              <div class="hill hill-one"></div>
-              <div class="hill hill-two"></div>
-              <div class="panel panel-one"></div>
-              <div class="panel panel-two"></div>
-              <div class="panel panel-three"></div>
-            </div>
-          </div>
-        </figure>
-      </section>
-
-      <section id="work" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Work samples</p>
-          <h2>用途に合わせた3つの見せ方</h2>
-        </div>
-        <div class="cards">
-          <article class="card">
-            <span class="card-icon">01</span>
-            <h3>カフェ</h3>
-            <p>メニュー、営業時間、場所を一目で確認できる落ち着いたページ。</p>
-          </article>
-          <article class="card">
-            <span class="card-icon">02</span>
-            <h3>ポートフォリオ</h3>
-            <p>作品写真とプロフィールを整理して、活動の雰囲気を伝える構成。</p>
-          </article>
-          <article class="card">
-            <span class="card-icon">03</span>
-            <h3>イベント</h3>
-            <p>開催日、チケット、アクセス情報を迷わず見つけられる案内ページ。</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="plans" class="section split">
-        <div>
-          <p class="eyebrow">Plans</p>
-          <h2>まずは小さく公開して、あとから育てる。</h2>
+        <div class="contact-box">
+          <span class="label">お問い合わせ先</span>
+          <a class="mail-link" href="mailto:support@example.com">support@example.com</a>
           <p>
-            最初から大きなサイトにせず、必要な内容だけを整えて公開。
-            反応を見ながら写真、予約、ブログなどを追加できます。
+            上記メールアドレスは仮のものです。公開前に実際の連絡先へ差し替えてください。
           </p>
         </div>
-        <div class="plan-box">
-          <button class="tab is-active" type="button" data-plan="light">Light</button>
-          <button class="tab" type="button" data-plan="standard">Standard</button>
-          <button class="tab" type="button" data-plan="plus">Plus</button>
-          <p id="planText">
-            1ページ構成。プロフィール、サービス紹介、問い合わせ導線をすっきり掲載します。
-          </p>
-        </div>
-      </section>
 
-      <section id="contact" class="section contact">
-        <div class="section-heading">
-          <p class="eyebrow">Contact</p>
-          <h2>相談内容を選ぶ</h2>
+        <div class="info-grid">
+          <section>
+            <h2>対象アプリ</h2>
+            <p>琉生くんのぼうけん</p>
+          </section>
+          <section>
+            <h2>対応内容</h2>
+            <p>操作方法、不具合報告、その他アプリに関するお問い合わせ</p>
+          </section>
         </div>
-        <form class="contact-form">
-          <label>
-            名前
-            <input type="text" name="name" placeholder="山田 太郎" />
-          </label>
-          <label>
-            作りたいもの
-            <select name="type">
-              <option>お店のサイト</option>
-              <option>作品紹介ページ</option>
-              <option>イベント案内</option>
-            </select>
-          </label>
-          <button class="button primary" type="submit">送信デモ</button>
-          <p class="form-note" role="status"></p>
-        </form>
       </section>
     </main>
-
-    <footer class="footer">
-      <span>Komorebi Studio</span>
-      <span>Demo website made with Codex</span>
-    </footer>
-
-    <script src="script.js"></script>
   </body>
 </html>
